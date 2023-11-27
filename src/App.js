@@ -1,4 +1,6 @@
 import Trainer from "./components/Trainer"
+import Trainee from "./components/Trainee"
+import DateExpiry from "./components/DateExpiry"
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       </header>
 
       <Trainer />
+      <Trainee />
 	
     
 	
@@ -96,6 +99,7 @@ function App() {
         </li>
         <li>
         <label>Date:</label><input type="date" id="date"></input>
+        <DateExpiry />
         </li>
             </ul>
         </fieldset>
