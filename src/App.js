@@ -1,6 +1,7 @@
-import Trainer from "./components/Trainer"
+import Pet from "./components/Pet"
 import Trainee from "./components/Trainee"
 import DateExpiry from "./components/DateExpiry"
+// import Show from "./components/Show"
 
 function App() {
   return (
@@ -10,8 +11,11 @@ function App() {
         <h1>Our Training Courses</h1> 
       </header>
 
-      <Trainer />
-      <Trainee />
+      <Trainee Name="Andrew Clark" Age="30" Job="Trainee Software Engineer"/>
+      <br/>
+      <Pet name="Ralph"  age="5" breed="Bulldog" />
+      
+      <Pet name="Fluffy"  age="2" breed="Alley Cat"/>
 	
     
 	
@@ -50,6 +54,12 @@ function App() {
             <td>2 days</td>
             <td>£1362</td>
           </tr>  
+          <tr>
+            <td>course="weefwegfe"</td>
+            <td>subject="sdfmklsdg"</td>
+            <td>duration="4days"</td>
+            <td>price="sfsml"</td>
+          </tr> 
 	
         </tbody>
         </table>
@@ -75,6 +85,9 @@ function App() {
                 </li>
                 <li>
                 <label>Phone:</label><input type="tel" id="tel" placeholder="+447500000000"/>
+                </li>
+                <li>
+                <label>Password:</label><input type="password" id="password"/><button>Show Password</button>
                 </li>
             </ul>
                 

@@ -1,9 +1,11 @@
-function Trainee() {
+function Trainee(props) {
+
+  
     return (
         <div>
-            <p>Name: Andrew Clark</p>
-            <p>Age: 30</p>
-            <p>Job: Trainee Software Egineer</p>
+            <p>Name: {props.Name}</p>
+            <p>Age: {props.Age}</p>
+            <p>Job: {props.Job}</p>
         </div>
     );
     
