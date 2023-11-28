@@ -1,9 +1,12 @@
 import Pet from "./components/Pet"
 import Trainee from "./components/Trainee"
 import DateExpiry from "./components/DateExpiry"
+import pets from "./components/pets.json"
+
 // import Show from "./components/Show"
 
 function App() {
+  console.log("Pets:", pets);
   return (
     <div>
       <header>
@@ -16,6 +19,8 @@ function App() {
       <Pet name="Ralph"  age="5" breed="Bulldog" />
       
       <Pet name="Fluffy"  age="2" breed="Alley Cat"/>
+      
+      
 	
     
 	
